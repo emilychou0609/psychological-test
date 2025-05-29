@@ -19,11 +19,11 @@ const usePsyStore = create((set) => ({
 const useQuestionStore = create((set) => ({
   questions: {
     "1":{
-      title: "麵包師傅要你「靜置 30 分鐘」，你會怎麼做？",
+      title: "早上醒來，你會怎麼做？",
       options: [
-        {title: "乖乖待著… 然後偷偷膨脹三倍大", value: 2},
-        {title: "等個屁！我已經開始發酵狂飆了", value: 3},
-        {title: "發…什麼？我忘記了，我睡著了", value: 1}
+        {title: "想躺平但還是默默起床", value: 2},
+        {title: "已經開始發酵人生嚕！", value: 3},
+        {title: "發…酵？欸我怎麼又睡著了？", value: 1}
       ]
     },
     "2":{

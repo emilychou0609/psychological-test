@@ -17,7 +17,7 @@ export default function StartPage({nextStep}) {
           <div className='text-[#B95F0F] font-[500] text-center text-[14px]
            leading-loose tracking-wide '>
             有些人天生酥脆，有些人出爐時就塌了。<br/>
-            你努力發酵、翻滾、等待出爐，<br/>ˇ
+            你努力發酵、翻滾、等待出爐，<br/>
             結果還是變成一坨可頌災難。
             沒關係，這世界不缺完美麵包，
             缺的是——像你一樣軟爛卻獨特的存在。
