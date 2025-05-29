@@ -16,6 +16,8 @@ export default function QuestionPage({questionIndex, nextStep}) {
 
 
   const clickAnswer = function(option){
+
+    
     nextStep();
 
     psyData.updateScore(psyData.score + option.value );
