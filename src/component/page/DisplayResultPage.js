@@ -18,14 +18,14 @@ export default function DisplayResultPage({nextStep}) {
             </div>
             <div className='text-[#8B4513] text-lg leading-relaxed'>
               讓我們來看看<br/>
-              你是什麼等級的<br/>
-              <span className='text-[#B95F0F] font-bold text-2xl'>失控可頌</span>
+              你是什麼類型的<br/>
+              <span className='text-[#B95F0F] font-bold text-2xl'>卡牌玩家</span>
             </div>
           </div>
 
           <div className='flex flex-col items-center gap-4 relative z-10'>
             <div className='text-[#8B4513] text-sm'>
-              🥐 點擊下方按鈕揭曉答案 🥐
+              👇 點擊下方按鈕揭曉你的卡牌玩家類型 👇
             </div>
             <div 
               className={`bg-[#FFD700] w-full rounded-full text-[#8B4513] 
@@ -34,7 +34,7 @@ export default function DisplayResultPage({nextStep}) {
                 transition hover:bg-[#FFE44D] active:translate-y-1`}
               onClick={nextStep}
             > 
-              查看我的可頌等級
+              查看我的卡牌玩家類型
             </div>
           </div>
 
